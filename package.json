@@ -1,0 +1,14 @@
+{
+    "name": "materialdesign",
+    "type": "module",
+    "version": "1.0.0",
+    "description": "This repo contains a custom build of Material Design Icons.",
+    "main": "build.js",
+    "scripts": {
+        "build": "node build.js && font-build"
+    },
+    "dependencies": {
+        "@getvim/execute": "^1.0.0",
+        "@mdi/font-build": "^1.8.6"
+    }
+}
